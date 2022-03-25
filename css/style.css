@@ -181,7 +181,28 @@ li a{
     margin: 50px 0 30px 0;
 }
 
-.plan-specs > div, .plan-description{
+.plan-specs > div{
     padding-bottom: 20px;
 }
 
+.plan-description button{
+    margin-bottom: 30px;
+}
+
+.divider{
+    margin: 30px 0;
+    width: 25%;
+}
+
+.plan-description li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.plan-description .fa-check,.plan-description a {
+    color: #0061ff;
+}
+
+.plan-description small{
+    color: #637381;
+}
