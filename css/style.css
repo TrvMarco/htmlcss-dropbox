@@ -27,12 +27,21 @@ body{
     font-size: 4.5em;
 }
 
+.second-title{
+    font-size: 3em;
+}
+
 /*---------
    COMMONS
 ----------*/
 .container-large{
     max-width: 1300px;
     margin: auto;   
+}
+
+.container{
+    max-width: 1080px;
+    margin: auto;
 }
 
 /*---------
@@ -123,3 +132,22 @@ li a{
     font-size: 40px;
     margin: 50px 0 75px 0;
 }
+
+/*-----------------------
+  FIND YOUR DROPBOX PLAN
+------------------------*/
+.drop-plan{
+    margin-top: 120px;
+}
+
+.drop-plan h2{
+    margin: 80px 0;
+}
+
+.plan-col{
+    width: calc(100% / 3 - 60px);
+    margin: 30px;
+    border: 1px solid;
+    float: left;
+}
+
