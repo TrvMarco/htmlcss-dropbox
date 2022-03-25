@@ -35,6 +35,9 @@ body{
 ----------*/
 header{
     padding: 25px 20px;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
 }
 header nav, header li{
     display: inline-block
@@ -60,4 +63,7 @@ li a{
     text-align: right;
 }
 
+/*---------
+   HER0
+----------*/
 
