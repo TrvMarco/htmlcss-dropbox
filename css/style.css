@@ -13,3 +13,50 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+/*---------
+   COMMONS
+----------*/
+
+/*---------
+  BUTTONS
+----------*/
+.btn{
+    padding: 8px 20px;
+    border: none;
+}
+.btn-blue{
+    background-color: #0061ff;
+    color: #fff;
+}
+
+/*---------
+   HEADER
+----------*/
+header{
+    padding: 25px 20px;
+}
+header nav, header li{
+    display: inline-block
+}
+
+header img, header li{
+    vertical-align: middle;
+    margin-right: 40px;
+}
+
+li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-right, .header-left{
+    width: calc(50% - 4px);
+    display: inline-block;
+}
+
+.header-right{
+    text-align: right;
+}
+
+
