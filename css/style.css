@@ -145,9 +145,20 @@ li a{
 }
 
 .plan-col{
-    width: calc(100% / 3 - 60px);
-    margin: 30px;
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
     border: 1px solid;
     float: left;
 }
 
+.margin-remove-left{
+    margin-left: 0;
+}
+
+.margin-remove-right{
+    margin-right: 0;
+}
+
+.margin-remove-left, .margin-remove-right{
+    width: calc(100% / 3 - 15px);
+}
