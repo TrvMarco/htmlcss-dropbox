@@ -31,6 +31,10 @@ body{
     font-size: 3em;
 }
 
+.plan-title{
+    font-size: 1.5em;
+}
+
 /*---------
    COMMONS
 ----------*/
@@ -68,6 +72,7 @@ header{
     top: 0;
     left: 0;
     background-color: #fff;
+    z-index: 10;
 }
 header nav, header li{
     display: inline-block
@@ -146,21 +151,16 @@ li a{
 
 .plan-col{
     width: calc(100% / 3 - 30px);
-    margin: 15px;
     border: 1px solid #d0d0d3;
     float: left;
 }
 
-.margin-remove-left{
-    margin-left: 0;
+.plan-col.center{
+    margin: 0 45px;
 }
 
-.margin-remove-right{
-    margin-right: 0;
-}
-
-.margin-remove-left, .margin-remove-right{
-    width: calc(100% / 3 - 15px);
+.billing-choice{
+    margin-bottom: 40px;
 }
 
 .plan-type{
@@ -168,3 +168,20 @@ li a{
     padding: 10px 0;
     border-bottom: 1px solid #d0d0d3;
 }
+
+.plan-description{
+    padding: 40px 35px;
+}
+
+.plan-title{
+    margin-bottom: 20px;
+}
+
+.plan-specs {
+    margin: 50px 0 30px 0;
+}
+
+.plan-specs > div, .plan-description{
+    padding-bottom: 20px;
+}
+
