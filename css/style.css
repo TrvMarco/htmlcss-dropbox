@@ -42,12 +42,13 @@ header nav, header li{
 
 header img, header li{
     vertical-align: middle;
-    margin-right: 40px;
+    margin-right: 15px;
 }
 
 li a{
     text-decoration: none;
     color: inherit;
+    padding: 20px 5px;
 }
 
 .header-right, .header-left{
