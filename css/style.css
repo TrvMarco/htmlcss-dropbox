@@ -8,15 +8,32 @@
 }
 
 /*---------
+  CLEARFIX
+----------*/
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*---------
     TYP0
 ----------*/
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.main-title{
+    font-size: 4.5em;
+}
+
 /*---------
    COMMONS
 ----------*/
+.container-large{
+    max-width: 1300px;
+    margin: auto;   
+}
 
 /*---------
   BUTTONS
@@ -35,9 +52,11 @@ body{
 ----------*/
 header{
     padding: 25px 20px;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
+    background-color: #fff;
 }
 header nav, header li{
     display: inline-block
@@ -67,5 +86,16 @@ li a{
    HER0
 ----------*/
 .hero{
+    margin-top: 81px;
     background-color: #b4d0e7;
 }
+
+.hero_col-left, .hero_col-right{
+    width: 50%;
+    float: left;
+}
+
+.hero-img{
+    height: 400px;
+}
+
