@@ -142,17 +142,18 @@ li a{
   FIND YOUR DROPBOX PLAN
 ------------------------*/
 .drop-plan{
-    margin-top: 120px;
+    margin: 150px 0;
 }
 
 .drop-plan h2{
-    margin: 80px 0;
+    margin-bottom: 60px;
 }
 
 .plan-col{
     width: calc(100% / 3 - 30px);
     border: 1px solid #d0d0d3;
-    float: left;
+    float: left; 
+    min-height: 1000px;
 }
 
 .plan-col.center{
@@ -170,7 +171,7 @@ li a{
 }
 
 .plan-description{
-    padding: 40px 35px;
+    padding: 30px 35px;
 }
 
 .plan-title{
@@ -205,4 +206,25 @@ li a{
 
 .plan-description small{
     color: #637381;
+}
+
+.plan-col_bottom{
+    border: 1px solid #d0d0d3;
+    margin-top: 50px;
+}
+
+.col_bottom-button, .col_bottom-title{
+    display: inline-block;
+    width: calc(50% - 4px);
+}
+
+.col_bottom-button{
+    text-align: right;
+}
+
+.col_bottom-button button{
+    margin-bottom: 0;
+}
+.plan-col_bottom h4{
+    margin-bottom: 20px;
 }
