@@ -31,7 +31,7 @@ body{
     font-size: 3em;
 }
 
-.plan-title{
+.plan-titlem, h3{
     font-size: 1.5em;
 }
 
@@ -60,6 +60,11 @@ body{
 .btn-blue{
     background-color: #0061ff;
     color: #fff;
+}
+
+.btn-white{
+    background-color: white;
+    border: 1px solid black;
 }
 
 /*---------
@@ -142,7 +147,7 @@ li a{
   FIND YOUR DROPBOX PLAN
 ------------------------*/
 .drop-plan{
-    margin: 150px 0;
+    margin: 150px 0 100px 0;
 }
 
 .drop-plan h2{
@@ -227,4 +232,27 @@ li a{
 }
 .plan-col_bottom h4{
     margin-bottom: 20px;
+}
+
+/*---------
+   PARTNER
+----------*/
+.partner_col-left{
+    width: 55%;
+    float: left;
+    object-fit: contain;
+}
+
+.partner_col-right{
+    width: 45%;
+    float: left;
+    padding: 50px;
+}
+
+.partner_col-left img{
+   object-fit: contain;
+}
+
+.partner_col-right p{
+    margin: 30px 0;
 }
