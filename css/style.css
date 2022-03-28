@@ -300,7 +300,6 @@ li a{
 
 .clients-col-left, .clients-col-right{
     width: 30vw;
-    background-color: lightcoral;
     float: left;
 }
 
@@ -317,7 +316,6 @@ li a{
 .clients-box{
     width: 50%;
     height: 15vw;
-    border: 1px solid red;
     position: relative;
     float: left;
 }
@@ -328,4 +326,36 @@ li a{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.designit{
+    background-color: #a2d39b;
+}
+
+.asu{
+    background-color: #61082b;
+}
+
+.uf{
+    background-color: #0093ce;
+}
+
+.topps{
+    background-color: #ff1c1c;
+}
+
+.wbr{
+    background-color: #d5001f;
+}
+
+.hearst{
+    background-color: #b4d0e7;
+}
+
+.loneleyplanet{
+    background-color: #0d2481; 
+}
+
+.clearchannel{
+    background-color: #ffd830;
 }
