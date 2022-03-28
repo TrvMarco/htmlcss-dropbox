@@ -27,7 +27,7 @@ body{
     font-size: 4.5em;
 }
 
-.second-title, .business-title, .clients-title{
+.second-title, .business-title, .clients-title, .freetrial-title{
     font-size: 2.5em;
 }
 
@@ -65,6 +65,14 @@ body{
 .btn-white{
     background-color: white;
     border: 1px solid black;
+}
+
+.noborder{
+    border: none;
+}
+
+.btn-large{
+    padding: 8px 60px;
 }
 
 /*---------
@@ -311,6 +319,7 @@ li a{
     background-color: #f5f5f5;
     float: left;
     padding: 40px;
+    overflow-y: auto;
 }
 
 .clients-col-left, .clients-col-right, .clients-col-center{
@@ -377,5 +386,27 @@ li a{
 }
 
 .author{
-    margin-top: 5vw;
+    margin-top: 4vw;
+}
+
+/*--------------------
+   DROPBOX FREE-TRIAL
+---------------------*/
+.drop-freetrial{
+    background-color: #b4d0e7;
+    padding: 100px 0;
+}
+
+.trial-title, .trial-button{
+    width: calc(100% / 2 - 4px);
+    display: inline-block;
+}
+
+.trial-button{
+    text-align: right;
+    vertical-align: top;
+}
+
+.freetrial-title{
+    color: #61082b;
 }
