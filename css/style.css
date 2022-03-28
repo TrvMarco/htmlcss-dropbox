@@ -27,7 +27,7 @@ body{
     font-size: 4.5em;
 }
 
-.second-title, .business-title{
+.second-title, .business-title, .clients-title{
     font-size: 2.5em;
 }
 
@@ -205,7 +205,7 @@ li a{
     margin-top: 10px;
 }
 
-.plan-description .fa-check,.plan-description a {
+.plan-description .fa-check,.plan-description a, .link {
     color: #0061ff;
 }
 
@@ -288,5 +288,44 @@ li a{
 }
 
 .drop-business{
-    margin: 100px 0 200px 0;
+    margin: 100px 0 100px 0;
+}
+
+/*------------------
+   DROPBOX CLIENTS
+------------------*/
+.clients-title{
+    margin-bottom: 20px;
+}
+
+.clients-col-left, .clients-col-right{
+    width: 30vw;
+    background-color: lightcoral;
+    float: left;
+}
+
+.clients-col-center{
+    width: calc(40vw - 18px);
+    background-color: lightblue;
+    float: left;
+}
+
+.clients-col-left, .clients-col-right, .clients-col-center{
+   height: 30vw; 
+}
+
+.clients-box{
+    width: 50%;
+    height: 15vw;
+    border: 1px solid red;
+    position: relative;
+    float: left;
+}
+
+.clients-box img{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
