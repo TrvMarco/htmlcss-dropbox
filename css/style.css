@@ -260,6 +260,7 @@ li a{
 .business-col{
     width: calc(100% / 3 - 30px);
     float: left;
+    margin-bottom: 60px;
 }
 
 .business-col.center{
@@ -281,3 +282,4 @@ li a{
 .business-col h3{
     margin-bottom: 20px;
 }
+
