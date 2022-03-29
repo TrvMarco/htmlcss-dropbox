@@ -100,7 +100,7 @@ header img, header li{
     margin-right: 15px;
 }
 
-li a{
+header li a{
     text-decoration: none;
     color: inherit;
     padding: 20px 5px;
@@ -439,4 +439,36 @@ li a{
 
 .faq-box{
     padding: 30px 0;
+}
+
+/*---------
+   FOOTER
+----------*/
+footer{
+    background-color: black;
+}
+.footer-col{
+    width: calc(100% / 5);
+    float: left;
+}
+
+.footer-top, footer a{
+    color: white;
+}
+
+.footer-col ul{
+    list-style: none;
+}
+
+footer li a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-top{
+    padding: 100px 0;
+}
+
+footer h5{
+    margin-bottom: 20px;
 }
