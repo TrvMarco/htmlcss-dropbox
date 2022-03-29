@@ -184,6 +184,10 @@ header li a{
     margin-bottom: 40px;
 }
 
+.billing-choice > label{
+    margin-right: 20px;
+}
+
 .plan-type{
     text-align: center;
     padding: 10px 0;
@@ -393,6 +397,10 @@ header li a{
     margin-top: 4vw;
 }
 
+.clients-box:hover{
+    -webkit-box-shadow:inset 10px 10px 10px 10px rgba(255,255,255,0.3);
+    box-shadow:inset 0px 0px 0px 10px rgba(255,255,255,0.3);
+}
 /*--------------------
    DROPBOX FREE-TRIAL
 ---------------------*/
